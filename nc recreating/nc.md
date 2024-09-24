@@ -12,5 +12,7 @@ server characteristics:
 Of course specifying the port is a must...
 
 example usage:
+
 server : `python.exe '.\nc.py' -l -p 50000 -e 'whoami'`
+
 client : `python.exe '.\nc.py' -p 50000`
